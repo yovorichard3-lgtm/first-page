@@ -1,4 +1,8 @@
 img {
   border-radius: 10px;
   border: 2px solid black;
+   background-image: url("1775238072853.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 260px;
 }
