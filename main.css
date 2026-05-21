@@ -6,3 +6,7 @@ img {
   background-position: center center;
   width: 260px;
 }
+h1{
+  font-weight: normal;
+  color: purple;
+}
