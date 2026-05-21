@@ -23,7 +23,7 @@ footer{
 
 nav{
   width: 100%;
-  background-color: rgb(240, 242, 255);
+  background-color: rgba(46, 5, 5, 0.307);
 }
 
 nav ul{
@@ -40,7 +40,7 @@ nav a{
   display: inline-block;
   text-decoration: none;
   padding: 20px 30px;
-  color: burlywood;
+  color: rgb(18, 20, 176);
   text-transform: uppercase;
 font-size: 15px;
 }
