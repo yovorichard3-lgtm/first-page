@@ -48,3 +48,22 @@ font-size: 15px;
   display: table;
   margin: 0 auto;
 }
+.menu-ind:hoover{
+  border-top: 5px solid green;
+  background-color: grey(64,200,130,0.15);
+}
+.menu-exp:hover{
+  border-top: 5px solid rgb(75, 128, 0);
+  background-color: grey(241,211,79,0.15);
+}
+.menu-hob:hover{
+  border-top: 5px solid rgba(75, 128, 0, 0.837);
+  background-color: grey(000,112,192,0.15);
+}
+.menu-con:hover{
+  border-top: 5px solid rgb(46, 75, 4);
+  background-color: grey(228,77,38,0.15);
+}
+nav li:hover a{
+  padding:15px 30px 20px 30px ;
+}
