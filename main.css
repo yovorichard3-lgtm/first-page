@@ -48,7 +48,7 @@ font-size: 15px;
   display: table;
   margin: 0 auto;
 }
-.menu-ind:hoover{
+.menu-ind:hover{
   border-top: 5px solid green;
   background-color: grey(64,200,130,0.15);
 }
