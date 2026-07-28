@@ -65,3 +65,36 @@ button {
      le même espace qu'entre les libellés et les champs. */
   margin-left: 0.5em;
 }
+
+
+
+/* Supprime les marges par défaut */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Le conteneur du fond flou */
+.bg-image {
+    position: fixed;
+    /* Les valeurs négatives évitent les bords blancs causés par le flou */
+    top: -10px; 
+    left: -10px; 
+    right: -10px; 
+    bottom: -10px;
+    background-image: url('1775238072853.jpg'); /* <-- Le chemin vers votre image */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); /* Augmentez ou diminuez les px pour changer le flou */
+    z-index: -1; /* Place l'image derrière le texte */
+}
+
+/* Le contenu de votre site qui reste net */
+.content {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
