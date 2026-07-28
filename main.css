@@ -1,25 +1,21 @@
 form {
-  /* On centre le formulaire */
+  /* Pour centrer le formulaire sur la page */
   margin: 0 auto;
   width: 400px;
-  /* Le contour du formulaire */
+
+  /* Encadré pour voir les limites du formulaire */
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
+div + div {
   margin-top: 1em;
 }
 
 label {
-  /* Taille et alignement uniformes */
+  /* On s'assure que tous les libellés ont la même taille
+     et sont correctement alignés. */
   display: inline-block;
   width: 90px;
   text-align: right;
