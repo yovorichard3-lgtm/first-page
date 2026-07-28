@@ -3,7 +3,12 @@
     <head>
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <meta name="description" content="Bienvenue sur THE NAILS BY DINA. Découvrez mes projets, mes compétences">
-         <meta charset="utf-8" />
+           <meta name="author" content="THE NAILS BY DINA">
+           <meta name="robots" content="index, follow">
+           <meta property="og:title" content="THE NAILS BY DINA">
+           <meta property="og:description" content="Découvrez mes compétences.">
+           <meta property="og:type" content="website">
+          <meta charset="utf-8" />
         <title>THE NAILS BY DINA</title>
         <link href="main.css" rel="stylesheet">
     </head>
@@ -24,7 +29,24 @@
                <a href="hobbies.html">loisirs</a> 
             </li>
             <li class="menu-con">
-               <a href="contact.html">contactez-moi </a> 
+               <a href="contact.html">contactez-moi 
+                <form action="/ma-page-de-traitement" method="post">
+                    <ul>
+                    <li>
+                         <label for="name">Nom&nbsp;:</label>
+                            <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+      <label for="mail">E-mail&nbsp;:</label>
+      <input type="email" id="mail" name="user_mail" />
+    </li>
+    <li>
+      <label for="msg">Message&nbsp;:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+  </ul>
+</form>
+               </a> 
             </li>
             </ul>
         </div>
