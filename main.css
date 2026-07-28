@@ -124,3 +124,16 @@ h1 {
     transform: translateY(0);    /* Arrive à sa position normale */
   }
 }
+h1 {
+  /* Nom | Durée | Type de transition | Infini | Allez-retour */
+  animation: pulsation 3s ease-in-out infinite alternate;
+}
+
+@keyframes pulsation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.03); /* Grossit de seulement 3% */
+  }
+}
