@@ -224,3 +224,57 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+
+main > aside {
+  width: 20vw;
+  min-width: 300px;
+  background-color: var(--bg-aside);
+
+  /** INFO: pour obliger les éléments a se mettre dans le fond **/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /** 
+		pour les enfants direct 2 solution: 
+		1. margin-top: auto; pour le dernier enfant
+		2. seulement 2 enfants et justify-content: space-between; pour les espacer au maximum
+	*/
+}
+
+section.photo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** gestion de la photo **/
+
+/* 1. simplement avoir une boite qui contient la photo en background-image */
+.profile-picture {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background-image: url("1775238072853.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+/* 2. mettre la photo dans une figure et designer */
+figure.profile {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center center;
+}
+figure.profile > img {
+  max-width: 100%;
+}
