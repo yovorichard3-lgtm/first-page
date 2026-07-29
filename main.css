@@ -137,3 +137,14 @@ h1 {
     transform: scale(1.03); /* Grossit de seulement 3% */
   }
 }
+.not-mobile{
+    display: none;
+  }
+  footer {
+  background-color: purple;
+  width: 100vw;
+  padding:  5px 20px;
+}
+ main {
+  flex-direction: column;
+  }
